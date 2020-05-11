@@ -108,6 +108,9 @@ namespace RouletteWebApi.Controllers
             
         }
 
+        /// <summary>
+        /// Confirm if a bet is valid or not
+        /// </summary>
         private bool IsValidBet(Bet bet)
         {
             bool isValid = false;
